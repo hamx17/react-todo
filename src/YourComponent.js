@@ -85,7 +85,7 @@ const YourComponent = ({ addTasksToList, lists, deleteToDoList, updateList }) =>
   };
 
   return (
-    <div>
+    <div style={{ width: '40%', display: 'inline-block', textAlign: 'center',backgroundColor: '#06285D', color: 'white', marginLeft:'390px' }}>
       <input
         type="text"
         placeholder="List Title"

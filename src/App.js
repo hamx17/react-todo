@@ -7,8 +7,8 @@ import './App.css'; // Your main component where you add lists and tasks
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-        <h1>multi to do list</h1>
+      <div className="App"  >
+        <h1 style={{ marginTop: '90px', backgroundColor: 'green', width: '100%', textAlign: 'center' }} >multi to do list</h1>
         <YourComponent />
       </div>
     </Provider>
